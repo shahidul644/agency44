@@ -1,0 +1,378 @@
+@media all and (max-width: 980px) {
+    .manu-area ul li {
+        padding-right: 8px;
+        margin-right: 8px;
+    }
+    .manu-area ul li a.button {
+        padding: 8px 14px;
+    }
+    .logo-area .logo-text a {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    .hero h1 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .hero p {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+    .hero a {
+        padding: 20px 30px;
+        font-size: 20px;
+    }
+    .hero-area {
+        height: 50vh;
+    }
+    .single-about-content img {
+        margin-bottom: 10px;
+        height: 50px;
+    }
+    .single-about-content {
+        padding: 0 1%;
+    }
+    .single-about-content h3 {
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+    .timeline-date h2 {
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+    .timeline-date p {
+        font-size: 15px;
+    }
+    .timeline-content .timeline-date {
+        padding: 8px 17px 2px;
+        top: 35%;
+        left: -33px;
+    }
+    .single-timeline:nth-child(even) .timeline-content .timeline-date {
+        right: -33px;
+    }
+    .timeline-content {
+        padding: 25px 65px;
+    }
+    .single-timeline {
+        margin-bottom: 15px;
+    }
+    .contact-form::after {
+        left: 44%;
+    }
+    .contact-form {
+        padding: 50px 50px 50px;
+    }
+    .contact-form form input[type="submit"] {
+        width: 35%;
+        margin-top: 8px;
+    }
+}
+@media all and (max-width: 768px) {
+    .logo-area {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .manu-area {
+        width: 100%;
+    }
+    .manu-area ul {
+        justify-content: center;
+    }
+    .manu-area ul li a.button {
+        padding: 5px 12px;
+    }
+    .section-padding {
+        padding: 40px 0;
+    }
+    .section-heading h1 {
+        font-size: 35px;
+        margin-bottom: 8px;
+    }
+    .section-heading p {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+    .hero-area {
+        height: auto;
+        padding: 80px 0;
+        background-size: cover;
+        background-position: center center;
+    }
+    .hero h1 {
+        font-size: 37px;
+        margin-bottom: 15px;
+    }
+    .hero p {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .hero a {
+        padding: 15px 20px;
+        font-size: 15px;
+    }
+    .single-about-content {
+        width: 100%;
+        margin-bottom: 45px;
+        padding: 0 50px;
+    }
+    .single-about-content img {
+        margin-bottom: 5px;
+        height: 70px;
+    }
+    .single-about-content h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .timeline-image {
+        width: 45%;
+    }
+    .timeline-content {
+        width: 55%;
+        padding: 15px 20px;
+    }
+    .single-timeline {
+        align-items: flex-start;
+    }
+    .timeline-content .timeline-date {
+        padding: 8px 6px 5px;
+        top: 0;
+        left: -82%;
+        width: 25%;
+    }
+    .single-timeline:nth-child(even) .timeline-content .timeline-date {
+        right: -82%;
+    }
+    .portfolio {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .single-portfolio a span {
+        left: 0;
+        height: 40%;
+        background-color: rgba(255, 255, 255,0.3);
+        bottom: 0;
+        top: auto;
+    }
+    .single-portfolio a:hover span {
+        top: auto;
+    }
+    .single-portfolio:nth-child(even) a span {
+        top: auto;
+    }
+    .single-portfolio:nth-child(even) a:hover span {
+        top: auto;
+    } 
+    .single-portfolio:nth-child(3) a span,
+    .single-portfolio:nth-child(4) a span,
+    .single-portfolio:nth-child(5) a span,
+    .single-portfolio:nth-child(6) a span,
+    .single-portfolio:nth-child(7) a span,
+    .single-portfolio:nth-child(8) a span{
+        top: auto;
+        left: auto;
+    }
+    .single-portfolio:nth-child(5) a:hover span,
+    .single-portfolio:nth-child(7) a:hover span {
+        top: auto;
+        left: auto;
+    }
+    .section-heading.white h1 {
+        color: #fff;
+        line-height: 33px;
+    }
+    .contact-collapse button {
+        width: 50px;
+        height: 50px;
+        border: 2px solid #fff;
+    }
+    .contact-collapse button::after {
+        width: 13px;
+        height: 13px;
+        border-left: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        top: 14px;
+        left: 17px;
+    }
+    .contact-form {
+        width: 95%;
+        padding: 40px 30px;
+    }
+    .contact-close button {
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+        top: -18px;
+        right: -18px;
+    }
+    .contact-form form p {
+        margin-bottom: 25px;
+    }
+    .contact-form form input {
+        width: 100%;
+    }
+    .contact-form::after {
+        left: 45.5%;
+    }
+}
+@media all and (max-width: 575px) {
+    .header-area {
+        padding: 30px 0px;
+    }
+    .header-top ul {
+        justify-content: center;
+    }
+        .header-top ul li a {
+        padding: 12px 12px 12px 12px;
+    }
+        .header-top ul li i {
+        margin-left: 12px;
+    }
+        .header-top ul li:last-child a {
+        padding-left: 0;
+    }
+    .logo-area {
+        margin-bottom: 22px;
+    }
+    .hero-area {
+        padding: 50px 0;
+    }
+    .hero h1 {
+        font-size: 30px;
+        margin-bottom: 12px;
+    }
+    .hero p {
+        font-size: 15px;
+        margin-bottom: 12px;
+    }
+    .hero a {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+    .section-padding {
+        padding: 30px 0;
+    }
+        .section-heading h1 {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+    .section-heading p {
+        font-size: 16px;
+        padding-bottom: 12px;
+    }
+        .section-heading {
+        margin-bottom: 35px;
+    }
+    .single-about-content {
+        margin-bottom: 25px;
+        padding: 0 5px;
+    }
+    .single-about-content img {
+        height: 50px;
+    }
+        .single-about-content:last-child {
+        margin-bottom: 0;
+    }
+    .timeline-image {
+        width: 100%;
+    }
+    .timeline-content {
+        width: 100%;
+        padding: 15px;
+    }
+    .single-timeline {
+        text-align: center;
+    }
+    .single-timeline:nth-child(even) .timeline-content {
+        text-align: center;
+    }
+    .timeline-content .timeline-date {
+        width: 20%;
+        left: auto;
+        top: -24%;
+        right: 9%;
+    }
+    .single-timeline:nth-child(2n) .timeline-content .timeline-date {
+        right: 9%;
+    }
+    .portfolio {
+        grid-template-columns: auto;
+        align-content: center;
+    }
+    .contact-collapse button {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 30px;
+    }
+    .contact-collapse button::after {
+        width: 10px;
+        height: 10px;
+        top: 11px;
+        left: 14px;
+    }
+    .contact-form {
+        width: 100%;
+        padding: 20px 15px;
+    }
+    .contact-form::after {
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid #fff;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        top: -39px;
+        left: 44%;
+    }
+    .contact-close button {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+        top: -17px;
+        right: -10px;
+    }
+        .contact-form form p {
+        margin-bottom: 18px;
+    }
+    .contact-form form input {
+        width: 100%;
+        height: 37px;
+        margin-bottom: 7px;
+    }
+    .contact-form form input[type="submit"] {
+        width: 40%;
+        margin-top: 5px;
+    }
+    .footer-top ul {
+        margin-bottom: 15px;
+    }
+    .footer-top ul li a {
+        height: 40px;
+        width: 40px;
+        font-size: 16px;
+        margin-right: 15px;
+    }
+    .footer-top p {
+        margin-bottom: 15px;
+    }
+    .footer-form input[type="email"] {
+        width: 100%;
+        height: 35px;
+        margin-bottom: 15px;
+    }
+    .footer-form input[type="submit"] {
+        width: 30%;
+        height: 36px;
+        font-size: 15px;
+    }
+}
+@media all and (max-width: 375px) {
+    .header-top ul li a {
+        padding: 12px 6px 12px 6px;
+    }
+    .manu-area ul {
+        flex-direction: column;
+    }
+    .manu-area ul li::after {
+        display: none;
+    }
+}
